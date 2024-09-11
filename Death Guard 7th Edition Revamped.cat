@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ec44-5e99-d4c0-1d14" name="Death Guard 7th Edition Revamped" revision="1" battleScribeVersion="2.03" authorName="Giacomo Gentilucci" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ec44-5e99-d4c0-1d14" name="Death Guard 7th Edition Revamped" revision="2" battleScribeVersion="2.03" authorName="Giacomo Gentilucci" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="5af86795--pubd1e6472" name="IA Vraks 2015"/>
     <publication id="5af86795--pubd1e6811" name="Imperial Armour 13"/>
@@ -26272,7 +26272,7 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07c2-fa5a-0af1-9fc7" name="Noxious Blightbringer" hidden="false" collective="false" import="true" type="model">
@@ -27071,6 +27071,9 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
           <infoLinks>
             <infoLink id="2da1-42e9-5f6c-45e9" name="Poisoned" hidden="false" targetId="a5ff-1cb1-bee4-d809" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -27118,6 +27121,9 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
               <infoLinks>
                 <infoLink id="1dd7-0dda-1bd3-c109" name="Heavy Slugger" hidden="false" targetId="a138-7db1-e0bb-d22f" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
