@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ab0-ceb9-0a9f-f0b6" name="Space Marines: Codex 7th Edition Revamped" revision="1" battleScribeVersion="2.03" authorName="Giacomo Gentilucci" authorContact="" authorUrl="" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ab0-ceb9-0a9f-f0b6" name="Space Marines: Codex 7th Edition Revamped" revision="2" battleScribeVersion="2.03" authorName="Giacomo Gentilucci" authorContact="" authorUrl="" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7ab0-ceb9-pubN65665" name="Supplement: Angels of Death"/>
     <publication id="7ab0-ceb9-pubN65751" name="Codex: Space Marines"/>
@@ -2736,6 +2736,11 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="68b2-7690-b20a-e307" name="Chapter Master Casan Sabius" hidden="false" collective="false" import="true" targetId="9ae1-01ad-15a1-24ce" type="selectionEntry"/>
+    <entryLink id="01bb-637a-5ddd-6162" name="Lion El&apos;Jonson, Primarch of the Dark Angels" hidden="false" collective="false" import="true" targetId="165b-07c1-7630-7fd4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="61c0-aa88-7363-4254" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="bab5-1920-a2ed-5b27" name="Vulkan&apos;s Teachings" publicationId="7ab0-ceb9-pubN65665" hidden="false">
@@ -4504,7 +4509,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <modifier type="append" field="name" value="(White Scars)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="760a-2a8a-fbfe-cc5f" name="" hidden="false" targetId="b718-b82d-98a1-0ea3" type="profile"/>
+        <infoLink id="760a-2a8a-fbfe-cc5f" name="Warlord Trait: Champion of Humanity" hidden="false" targetId="b718-b82d-98a1-0ea3" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="fac2-d750-07b2-f55c" name="Chapter Relic: Moonfang" hidden="false" collective="false" import="true" type="upgrade">
@@ -30126,6 +30131,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <entryLinks>
         <entryLink id="0cef-bde1-f42d-ce67" name="Specialists" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d72b-427a-4ff6-41e7" name="Gladiator Tank" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -32533,6 +32541,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <entryLinks>
         <entryLink id="8ffd-1df4-ae90-7517" name="Specialists" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0c69-c306-6e24-3a0a" name="Terror Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -32716,32 +32727,50 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <entryLinks>
         <entryLink id="eb2a-7829-9849-efb3" name="Specialists" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3d47-a3dd-cd31-a6c2" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="7114-da21-1d32-190f" name="Close Combat Weapon" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3246-35e6-0896-0b4b" name="Grav-Chute" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="15a3-ce13-591f-c303" name="Grav-Chute" hidden="false" targetId="fbbf-216d-a9c1-fb69" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="86b6-f124-f3f2-a93c" name="Helix Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f2f7-b1d3-c167-1a4b" name="Helix Gauntlet" hidden="false" targetId="5ea7-6cde-0578-dbe0" type="profile"/>
         <infoLink id="ff83-d181-f31d-3561" name="Feel No Pain" hidden="false" targetId="3c7d-11d6-e265-abb4" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="07cd-e3b7-c712-dd5b" name="Grapnel Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="aa40-b54f-7fa4-ac91" name="Grapnel Launcher" hidden="false" targetId="3068-dafe-9c84-f8ec" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5283-eec9-a15e-a086" name="Omni-Scrambler" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="65d9-cd1e-1661-c918" name="Omni-Scrambler" hidden="false" targetId="992a-91ab-bf8f-03c8" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cbf0-7da2-aa04-559f" name="Firestrike Servo-Turret" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -32834,6 +32863,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <infoLink id="512a-fc13-8a6d-1d09" name="Twin-Linked" hidden="false" targetId="3002-de38-7230-fbc6" type="rule"/>
                 <infoLink id="864d-22c1-fd02-3e8d" name="Rending" hidden="false" targetId="6a76-59d1-822c-59c9" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -32951,6 +32983,240 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="165b-07c1-7630-7fd4" name="Lion El&apos;Jonson, Primarch of the Dark Angels" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0e6f-8a5f-7794-947d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2c75-c097-24d6-d2ee" name="Lion El&apos;Jonson" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Monstrous Creature (Character)</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">9</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">7</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">6</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">6</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">6</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">7</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">6</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">2+/4++</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b2f2-515c-27fd-39df" name="Warlord Trait: The Point of the Blade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If Lion El&apos;Jonson unit is the first to Declare a Charge during the Assault Phase, add +d3&quot; to the Charge Roll and ignoring the effects of Difficult Terrain and Dangerous Terrain.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9c5b-f456-8205-6639" name="Unyielding Will" publicationId="e1ebd931--pubd1e13402" hidden="false">
+          <description>Roboute Guilliman&apos;s Leadership is not subject to negative modifiers of any kind and he may re-roll failed Deny the Witch tests.</description>
+        </rule>
+        <rule id="f296-6bda-68d3-126c" name="Primarch of the I Legion" publicationId="e1ebd931--pubd1e13402" hidden="false">
+          <description>All models with the Space Marines (Dark Angels) special rule in the same army as Lion El’Jonson gain the Crusader special rule, and any friendly models with the Space Marines (Dark Angels) special rule that can draw line of sight to Lion El’Jonson have the Fearless special rule.</description>
+        </rule>
+        <rule id="322e-8827-adb5-9308" name="Grim Resolve" publicationId="e1ebd931--pubd1e13885" hidden="false">
+          <description>Models with this special rule have the Stubborn special rule and, unless Jinking, count their Ballistic Skill as 2 when firing Overwatch.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4dae-72e6-9df6-5b89" name="Fleet" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
+        <infoLink id="169f-ed09-6098-bd03" name="Eternal Warrior" hidden="false" targetId="f172-03fe-1e9f-c363" type="rule"/>
+        <infoLink id="a435-15fe-ae62-2298" name="Feel No Pain" hidden="false" targetId="3c7d-11d6-e265-abb4" type="rule"/>
+        <infoLink id="a5c0-a001-0cd1-48fb" name="Adamantium Will" hidden="false" targetId="8714-46ad-62c0-ce35" type="rule"/>
+        <infoLink id="b1d3-5374-8268-59fd" name="Fearless" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule"/>
+        <infoLink id="fa58-563a-25bd-849a" name="Precision Shots" hidden="false" targetId="540d-b15f-f709-3bf9" type="rule"/>
+        <infoLink id="8dfc-2728-e7f6-5e10" name="Precision Strikes" hidden="false" targetId="80c8-1041-d0f1-6e58" type="rule"/>
+        <infoLink id="93d0-baaf-3bd1-556c" name="Preferred Enemy" hidden="false" targetId="f217-b311-e5b1-c8c7" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="(Chaos)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="9c27-011b-b2e5-532c" name="Leonine Panoply" publicationId="e1ebd931--pubd1e13402" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dc4-d9fd-88eb-f311" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b68-e7ee-9a47-2e59" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3fc9-447b-075e-f07f" name="Leonine Panoply" publicationId="e1ebd931--pubd1e13402" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Armour of Fate confers a 2+ save and a 4+ invulnerable save.  In addition, the first failed Invulnerable Save made for Lion El’Jonson each player turn may be re-rolled.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d5d5-144b-1219-a688" name="Stasis Grenades" publicationId="e1ebd931--pubd1e13402" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ac-b441-7fa1-6c3d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d06-4935-576d-39b7" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="6e1e-bc09-009b-8f07" name="Stasis Grenades" hidden="false">
+              <description>Once per battle, Lion El’Jonson’s controlling player may choose to use stasis grenades when a Charge is declared for Lion El’Jonson and any unit he has joined. If the Charge for which the stasis grenades are used is successful then the target enemy unit or units must take an Initiative test (using the majority Initiative value of the unit(s)). If the Initiative test is passed then there is no further effect. If any of the target units fail the Test, then all enemy models in that unit must reduce their Initiative by -1 for the duration of the Assault phase in which the Charge was made.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d83d-c804-192c-5e47" name="Emperor&apos;s Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c144-1526-617f-abc3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="22a3-6ed0-b941-4ec4" name="Emperor&apos;s Shield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Emperor&apos;s Shield grants the bearer a 3+ invulnerable save, and also has the subsequent ability: 
+- Each time a saving throw is made for this model against a melee attack, on an unmodified roll of 6, the attacking model’s unit suffers 1 wound at Strenght(user) and AP 2 after all the models in it have finished making their attacks (to a maximum of 3 wounds per Assault Phase).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0f05-91a6-9aea-4674" name="Legendary Sword" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ac4-f3df-8aed-9914">
+          <selectionEntries>
+            <selectionEntry id="68d8-262a-f815-4a99" name="Lion Sword" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9344-9b42-1c57-05b5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="82e0-c8c3-0952-2884" name="Lion Sword" publicationId="e1ebd931--pubd1e13402" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Lance, Fleshbane, Master-Crafted, Two-handed</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="2847-8511-aec4-f205" name="Two-Handed" hidden="false" targetId="b11c-0ef4-af6b-d96f" type="rule"/>
+                <infoLink id="ccb8-d773-4fcd-63e6" name="Master-crafted" hidden="false" targetId="609e-1ee4-78c1-0ba1" type="rule"/>
+                <infoLink id="0e4d-ec75-7d1e-e3ce" name="Lance" hidden="false" targetId="cb0d-87b3-87a2-81d6" type="rule"/>
+                <infoLink id="0771-1fe9-c27d-9d23" name="Fleshbane" hidden="false" targetId="3897-5e71-1b57-57ba" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ac4-f3df-8aed-9914" name="Fealty" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3c1-45cd-c3a3-fb4c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="bb5e-10cc-06b8-3d12" name="Fealty" publicationId="e1ebd931--pubd1e13402" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane, Master-crafted, Severing Strike</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="5895-867d-dea4-1a79" name="Severing Strike" hidden="false">
+                  <description> Each time the bearer of the Axe of Medusa rolls a 6 To Hit, resolve that attack at +2 Strength instead. Any other hits are resolved at user Strength as normal.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="2b7c-a0f4-c587-a673" name="Master-crafted" hidden="false" targetId="609e-1ee4-78c1-0ba1" type="rule"/>
+                <infoLink id="e738-ff9b-9dea-9b01" name="Armourbane" hidden="false" targetId="3498-7560-3a1a-9e27" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b0b-2dc3-ad2e-97ac" name="Wolf Blade" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7793-c925-6030-c9d6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2c76-9bc6-e833-1a3f" name="Wolf Blade" publicationId="e1ebd931--pubd1e13402" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+3</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-handed, Shred, Fearsome Ruin, Reaping Blow(2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="5c39-bb96-482e-8192" name="Fearsome Ruin" hidden="false">
+                  <description>The controlling player of any unit which suffers one or more casualties from this weapon and makes a Morale check during the Assault phase must roll an additional D6 for that Check and keep the two highest dice to determine the result of that Morale check.</description>
+                </rule>
+                <rule id="b207-b47a-bdd7-8832" name="Reaping Blow(2)" hidden="false">
+                  <description>If a model is in base contact with more than one enemy model in the Initiative step in which they fight, they gain a number of Attacks equal to the value of X as noted in the variant of the special rule (if no value of X is included then count the value of X as 1).</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="bdce-1017-6cfa-8b67" name="Two-Handed" hidden="false" targetId="b11c-0ef4-af6b-d96f" type="rule"/>
+                <infoLink id="fbff-f97e-8273-6154" name="Shred" hidden="false" targetId="5770-35c6-7341-5527" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="eae6-f20a-58ea-673b" name="Legenday Pistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="3bed-f83f-a96c-ea5b">
+          <selectionEntries>
+            <selectionEntry id="657e-3794-3468-2dcb" name="Fusil Actinaeus" publicationId="e1ebd931--pubd1e13402" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b854-d4d7-826e-c246" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1674-3e9a-c0e4-a336" name="Fusil Actinaeus" publicationId="e1ebd931--pubd1e13402" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Blind, Rending(3+), Twinlinked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="d719-67cd-b97e-d8e3" name="Blind" hidden="false" targetId="8fad-693f-88b4-bac6" type="rule"/>
+                <infoLink id="2056-466d-76a4-a7ac" name="Rending" hidden="false" targetId="6a76-59d1-822c-59c9" type="rule"/>
+                <infoLink id="d406-62a6-cb11-48e5" name="Twin-Linked" hidden="false" targetId="3002-de38-7230-fbc6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3bed-f83f-a96c-ea5b" name="Arma Luminis" publicationId="e1ebd931--pubd1e13402" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99fe-b4e6-bd93-2a74" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b9b8-6c95-2daa-e681" name="Arma Luminis" publicationId="e1ebd931--pubd1e13402" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2, Master-crafted</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="400.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
