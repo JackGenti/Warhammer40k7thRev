@@ -13721,7 +13721,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="75cf-4e1d-d02d-8912" hidden="false" targetId="18cf5c89-4385-d490-f1da-3319ea745c83" type="profile"/>
+            <infoLink id="75cf-4e1d-d02d-8912" name="Ravenwing Biker" hidden="false" targetId="18cf5c89-4385-d490-f1da-3319ea745c83" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
@@ -13747,7 +13747,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
                 <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
                 <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">5</characteristic>
-                <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
                 <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
                 <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                 <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
@@ -13840,7 +13840,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5d49-39fe-c46d-4e0b" hidden="false" collective="false" import="true" targetId="d3c417ab-8af7-8e5b-749a-4ca9eff96e12" type="selectionEntry"/>
-        <entryLink id="210b-de1b-c415-4997" hidden="false" collective="false" import="true" targetId="bd5a380c-b776-682e-bb83-12f37e77afcc" type="selectionEntry">
+        <entryLink id="210b-de1b-c415-4997" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="bd5a380c-b776-682e-bb83-12f37e77afcc" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4721-ada5-9c75-5952" type="min"/>
           </constraints>
@@ -16554,7 +16554,7 @@ controlling player&apos;s turns, roll a D6 for each collapsed shield - a roll of
       </profiles>
       <rules>
         <rule id="7352-e80d-f881-2d9e" name="Unyielding Will" publicationId="e1ebd931--pubd1e13402" hidden="false">
-          <description>Roboute Guilliman&apos;s Leadership is not subject to negative modifiers of any kind and he may re-roll failed Deny the Witch tests.</description>
+          <description>Lion El&apos;Jonson&apos;s Leadership is not subject to negative modifiers of any kind and he may re-roll failed Deny the Witch tests.</description>
         </rule>
         <rule id="8fe5-f6a8-79f1-e8aa" name="Primarch of the I Legion" publicationId="e1ebd931--pubd1e13402" hidden="false">
           <description>All models with the Space Marines (Dark Angels) special rule in the same army as Lion El’Jonson gain the Crusader special rule, and any friendly models with the Space Marines (Dark Angels) special rule that can draw line of sight to Lion El’Jonson have the Fearless special rule.</description>
@@ -17147,44 +17147,29 @@ controlling player&apos;s turns, roll a D6 for each collapsed shield - a roll of
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="4e10-a82c-7e9a-0c2a" name="Boltgun Hand" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f0ea-0bcf-4dbc-2ff1" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a9d-4b64-2ea3-fa43" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="1ad0-0835-be1e-8fa1" name="Character Melee Weapons" hidden="false" collective="false" import="true" targetId="7ba9890e-c994-533e-8e42-bbaa628bfbdc" type="selectionEntryGroup"/>
-                    <entryLink id="73ea-9747-28c5-65b4" name="Character Ranged Weapons" hidden="false" collective="false" import="true" targetId="0f32cbf0-e1eb-e9d0-25f5-72b68bd7194e" type="selectionEntryGroup"/>
-                    <entryLink id="3ffc-7493-38f8-e489" name="Boltgun" hidden="false" collective="false" import="true" targetId="cd22c0d3-5f51-8bb8-2e18-6d706219249e" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a13-b6d2-cf65-46f5" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="78b0-fd02-ba27-eaae" name="Special Weapons" hidden="false" collective="false" import="true" targetId="1362-3eff-15cb-f829" type="selectionEntryGroup"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="d3b1-81fb-687e-87a6" name="Bolt Pistol Hand" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e4d9-8bf5-8c3d-4bad" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f71-76ac-fa24-9d66" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="36fc-8ac5-9e1d-3696" name="Character Melee Weapons" hidden="false" collective="false" import="true" targetId="7ba9890e-c994-533e-8e42-bbaa628bfbdc" type="selectionEntryGroup"/>
-                    <entryLink id="2f1e-a49b-eb87-63fb" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="bd5a380c-b776-682e-bb83-12f37e77afcc" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d5a0-0bd8-134c-f637" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="13ac-8491-6ca1-dea7" name="Character Ranged Weapons" hidden="false" collective="false" import="true" targetId="0f32cbf0-e1eb-e9d0-25f5-72b68bd7194e" type="selectionEntryGroup"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="1a88-8e1b-c9ba-89e0" name="Frag and Krak Grenades" hidden="false" collective="false" import="true" targetId="d3c417ab-8af7-8e5b-749a-4ca9eff96e12" type="selectionEntry"/>
                 <entryLink id="9b1b-73f2-01f7-e2ca" name="Melta Bomb" hidden="false" collective="false" import="true" targetId="dce5e796-5f86-8a33-44fc-ff962a02b8c0" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="242d-8dbf-5f08-02df" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="9ab9-af23-c0a9-9ff9" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="bd5a380c-b776-682e-bb83-12f37e77afcc" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6336-2d64-f624-867f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91ad-3ea3-ab29-b6ca" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="b2fd-5fd7-ab76-6d48" name="Character Melee Weapons" hidden="false" collective="false" import="true" targetId="7ba9890e-c994-533e-8e42-bbaa628bfbdc" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4731-7152-b6fa-b87b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f26e-65f8-f996-d0e8" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="3dee-c933-4add-8834" name="Special Weapons" hidden="false" collective="false" import="true" targetId="1362-3eff-15cb-f829" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d22d-34e5-521b-4f28" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="01a2-dc97-5fa9-034d" type="min"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -17247,7 +17232,7 @@ controlling player&apos;s turns, roll a D6 for each collapsed shield - a roll of
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="1abc-379f-096e-c8a7" name="Weapons Loadout" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="1abc-379f-096e-c8a7" name="Weapons Loadout" hidden="false" collective="false" import="true" defaultSelectionEntryId="eb34-1803-6e3e-ad58">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="126b-b17b-3d5a-a0ab" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bf4c-e6b4-393a-e246" type="max"/>
@@ -17259,19 +17244,11 @@ controlling player&apos;s turns, roll a D6 for each collapsed shield - a roll of
                       <modifiers>
                         <modifier type="set" field="points" value="0.0"/>
                       </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3984-279b-3882-67bd" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="862c-6c87-fc5b-5f58" type="max"/>
-                      </constraints>
                     </entryLink>
                     <entryLink id="5cc2-4da5-2f54-bc85" name="Power Fist" hidden="false" collective="false" import="true" targetId="151f05e5-5594-7564-29fe-067fbeee6262" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="points" value="0.0"/>
                       </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a3f-b0ce-904b-b23f" type="min"/>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2666-01a1-b3a7-fb51" type="max"/>
-                      </constraints>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -17284,19 +17261,11 @@ controlling player&apos;s turns, roll a D6 for each collapsed shield - a roll of
                       <modifiers>
                         <modifier type="set" field="points" value="0.0"/>
                       </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2917-cc75-b7e3-71d4" type="min"/>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="053e-dc2a-4a8a-8279" type="max"/>
-                      </constraints>
                     </entryLink>
                     <entryLink id="c61e-161c-3abd-2e31" name="Hurricane Bolter" hidden="false" collective="false" import="true" targetId="0ccc-eacc-0ebb-6c27" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="points" value="0.0"/>
                       </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d7f3-dd9c-b7c0-33a4" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="423a-d817-587f-7448" type="max"/>
-                      </constraints>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -17342,7 +17311,7 @@ controlling player&apos;s turns, roll a D6 for each collapsed shield - a roll of
             <entryLink id="916c-0c54-c2c2-ba63" name="Land Raider Crusader" hidden="false" collective="false" import="true" targetId="5e63-4373-f432-e1fb" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bc52-6b0b-cb09-82b8" name="Gravis Marine" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="bc52-6b0b-cb09-82b8" name="Gravis Marine" hidden="false" collective="false" import="true" defaultSelectionEntryId="d2b8-a88a-1ffb-9261">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c676-f5c5-0e5e-c46c" type="min"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7b7e-dba6-139f-501b" type="max"/>
@@ -17359,7 +17328,7 @@ controlling player&apos;s turns, roll a D6 for each collapsed shield - a roll of
                 <infoLink id="305e-1b39-811a-4973" name="Gravis Marine" hidden="false" targetId="1906-5711-ce96-8caf" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="985e-51e3-dbc9-241f" name="Weapons Loadout" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="985e-51e3-dbc9-241f" name="Weapons Loadout" hidden="false" collective="false" import="true" defaultSelectionEntryId="d2ea-7392-a751-8127">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ea4-c2bf-9c58-88f7" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3da6-3a16-fdf4-7fcf" type="max"/>
@@ -17371,19 +17340,11 @@ controlling player&apos;s turns, roll a D6 for each collapsed shield - a roll of
                           <modifiers>
                             <modifier type="set" field="points" value="0.0"/>
                           </modifiers>
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="afbc-51ca-dc96-caf6" type="min"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f48a-9ca1-3319-532f" type="max"/>
-                          </constraints>
                         </entryLink>
                         <entryLink id="af3f-f2b2-0689-3726" name="Power Fist" hidden="false" collective="false" import="true" targetId="151f05e5-5594-7564-29fe-067fbeee6262" type="selectionEntry">
                           <modifiers>
                             <modifier type="set" field="points" value="0.0"/>
                           </modifiers>
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a4fa-f98e-af5b-20f5" type="min"/>
-                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2fa5-cb81-98dd-5c70" type="max"/>
-                          </constraints>
                         </entryLink>
                       </entryLinks>
                       <costs>
@@ -17396,19 +17357,11 @@ controlling player&apos;s turns, roll a D6 for each collapsed shield - a roll of
                           <modifiers>
                             <modifier type="set" field="points" value="0.0"/>
                           </modifiers>
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e60e-c893-576e-01f0" type="min"/>
-                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41a9-290d-455e-0b22" type="max"/>
-                          </constraints>
                         </entryLink>
                         <entryLink id="db0d-fb13-4518-525e" name="Hurricane Bolter" hidden="false" collective="false" import="true" targetId="0ccc-eacc-0ebb-6c27" type="selectionEntry">
                           <modifiers>
                             <modifier type="set" field="points" value="0.0"/>
                           </modifiers>
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c55e-39e6-ad08-e0f7" type="min"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1361-5e36-356a-40cb" type="max"/>
-                          </constraints>
                         </entryLink>
                       </entryLinks>
                       <costs>
@@ -17458,7 +17411,7 @@ controlling player&apos;s turns, roll a D6 for each collapsed shield - a roll of
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfac-1192-7277-8e06" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="7a69-2cf2-f825-7772" name="Heavy Weapons" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="7a69-2cf2-f825-7772" name="Heavy Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="ba48-acc7-63b4-1c84">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b656-68e1-4ca5-4e3b" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1959-c63d-c157-f5a4" type="max"/>
